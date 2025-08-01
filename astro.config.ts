@@ -23,8 +23,9 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   site: 'https://katlehoribisi.gitlab.io',
-  base: '/https://gitlab.com/jkp-group1/jkproductions',
-  output: 'static',
+  base: '/JKProductions',
+  outDir: 'public',
+  publicDir: 'static',
 
   integrations: [
     tailwind({
